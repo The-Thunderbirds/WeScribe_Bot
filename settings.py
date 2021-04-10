@@ -6,6 +6,10 @@ import os
 COGS=[
     'Cogs.General',
     'Cogs.Base',
+    'Cogs.Errors',
+    'Cogs.Notifier',
+    'Cogs.Share',
+    'Cogs.XP',
 ]
 
 
