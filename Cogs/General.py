@@ -8,7 +8,6 @@ import random
 class General(commands.Cog,name="General Cog"):
     def __init__(self,bot):
         self.bot=bot
-        #self.Task.start()
     
     def validYear(self,year):
         return (year in YEAR)

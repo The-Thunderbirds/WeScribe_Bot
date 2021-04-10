@@ -137,5 +137,14 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# DB
+Database/Timetables/*
+Database/XP/*
+Database/Messages/*
+
+!Database/Timetables/.gitkeep
+!Database/XP/.gitkeep
+!Database/Messages/.gitkeep
+
 # Spare folder
 _ignore/

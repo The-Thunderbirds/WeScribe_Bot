@@ -141,9 +141,9 @@ class Share(commands.Cog,name="XP Cog"):
         MessageUtil.LinkMessage(ctx.guild.id,msg.id,ctx.author.id)
 
 
-    @commands.command("get-material")
-    async def GetMaterial(self,ctx,year:str):
-        pass
+    # @commands.command("get-material")
+    # async def GetMaterial(self,ctx,year:str):
+    #     pass
 
 
     @commands.Cog.listener()

@@ -22,7 +22,6 @@ class Base(commands.Cog,name="Base Cog"):
                 await get(self.bot.guilds,id=int(GUILD)).create_role(name=f"Level {level}",colour=LEVEL_COLORS[level])
                 print(f"Created Level {level} role")
 
-
     @commands.Cog.listener()
     async def on_member_join(self,member):
         if not member.bot:
